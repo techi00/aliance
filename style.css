@@ -1,0 +1,159 @@
+body{
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding: 0;
+
+}
+.head{
+display: flex;
+width: 100%;
+height: 100%;
+justify-content:center;
+margin: 2rem auto;
+
+}
+.head img{
+  width: 12rem;
+  margin:0 1rem;
+}
+.container-child{
+    background-color: #ebeaea96;
+}
+.container{
+  width: 100%;
+
+    padding: 0 !important;
+    border-radius: 22px;
+
+}
+.container .banner{
+  width: 100%;
+  border:2px;
+  border-radius:10px;
+
+}
+.container .banner p{
+position: absolute;
+color: white;
+    font-weight: 900;
+font-size: 2.5rem;
+    margin: 3rem 3rem;
+
+}
+.container .banner img{
+width: 100%;
+height: 50vh;
+border: silver 4px;
+border-radius: 30px;
+}
+.section-2{
+  padding:2rem;
+    text-align: justify;
+}
+.section-2 .p1{
+font-weight: 700;
+  text-align: justify;
+}
+.section-2 .p2{
+font-weight: 500;
+  text-align: justify;
+}
+.section-child{
+    text-align: justify;
+
+
+}
+.section-child img,.section-2 img{
+width: 100%;
+height: 15rem;
+border-radius: 20px;
+}
+.sp1{
+  font-weight: 550;
+  text-align: justify;
+}
+.sp2{
+  font-weight: 500;
+padding-right: 2rem;
+}
+.row{
+  margin-bottom:1.5rem;
+}
+.section-btn{
+  justify-content: center;
+    display: grid;
+    margin-top: 2rem;
+}
+.section-btn a{
+  background-color:#b4ed26f2;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+
+}
+.section-btn p{
+font-weight: bold;
+color: #0c820ceb;
+font-size: 2rem;
+}
+.section-3{
+  border:solid 5px;
+  border-radius: 20px;
+  margin-top:2rem;
+  border-color: #105777;
+}
+.section-4{
+  border:solid 5px;
+  border-radius: 20px;
+  margin-top:2rem;
+  border-color: #6bd85a;
+}
+.section-5{
+  border:5px;
+  border-radius: 20px;
+  margin-top:2rem;
+}
+.section-5 .row{
+border-radius: 20px;
+}
+.section-5 p{
+    font-weight: 600;
+}
+.img-section img{
+
+  width: 100%;
+  height: 100%;
+  border-right:4px;
+  border-radius: 15px;
+}
+.section-5-child{
+    background-color: #ebeaea96;
+    border-radius: 20px;
+}
+.s1{
+  font-size: 2rem;
+  font-weight: 650;
+}
+.s2{
+
+  font-weight: 650;
+}
+.icons{
+  list-style: none;
+
+}
+.icons li{
+margin:0 0.5rem;
+font-size: 1.5rem;
+}
+.foot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+hr{
+  color: #6bd85a;
+  height:3px !important;
+}
